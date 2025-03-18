@@ -1,0 +1,157 @@
+html
+    {
+        margin: 0px;
+        padding: 0px;
+        width: 1340px;
+        height: 1200px;
+    }
+
+body
+    {
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+        width: 1340px;
+        height: 1200px;
+        background-image: url(body\ backgroud.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+p
+    {
+        font-size: 16.25x;
+    }
+
+main
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 500px;
+    }
+img
+    {
+        height: 180px;
+        width: 120px;
+        border-radius: 60px;
+        border: solid 2.5px;
+    }
+
+/*Header configurations*/
+header
+    {
+        box-sizing: border-box;
+        margin: 15px 0px 0px 0px;
+        background-color: orangered;
+        border-radius: 40px;
+        border: solid 7.5px darkred;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 1000px;
+    }
+header img
+    {
+        height: 280px;
+        width: 360px;
+        border-radius: 40px;
+    }
+header div
+    {
+        background-image: url(div\ background.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 25px;
+        width: 500px;
+        height: 240px;
+    }
+h1, h2
+    {
+        text-align: center;
+        color: white;
+    }
+
+/**/
+
+/*Table Configurations*/
+#maintable
+    {
+        margin: 32px 0px 0px 0px;
+        width: 900px;
+        border: double darkblue 10px;
+        padding: 15px;
+        border-radius: 30px;
+        background: rgba(255, 255, 255, 0.7);
+    }
+thead th
+    {
+        font-size: 18px;
+        padding: 12.5px;
+        border: solid 2.5px;
+        border-bottom-width: 5.75px;
+    }
+
+colgroup col:first-child
+    {
+        background-color: rgba(140, 0, 0, 0.7);
+    }
+
+colgroup col:nth-child(2)
+    {
+        background-color: rgba(140, 0, 0, 0.6);
+    }
+colgroup col:nth-child(3)
+    {
+        background-color: rgba(140, 0, 0, 0.5);
+    }
+colgroup col:last-child
+    {
+        background-color: rgba(140, 0, 0, 0.4);
+    }
+
+th, td
+    {
+        text-align: center;
+        padding: 7.5px 15px;
+        border-radius: 15px;
+    }
+td:hover
+    {
+        background-color: darkblue;
+        color: yellow;
+        border-color: purple;
+        text-decoration: underline double;
+    }
+
+td:hover img
+    {
+        border: solid 2.75px purple;
+    }
+a
+    {
+        color: darkblue;
+        font-size: 17px;
+    }
+td:hover a
+    {
+        color: yellow;
+    }
+
+caption
+    {
+        font-size: 24px;
+        text-decoration: underline double darkred;
+        margin: 0px 0px 16px 0px;
+    }
+tfoot
+    {
+        font-size: 18px;
+        text-decoration: underline solid darkblue;
+        background-color: gray;
+    }
+.secondtable th
+    {
+        border: solid 2.25px;
+    }
